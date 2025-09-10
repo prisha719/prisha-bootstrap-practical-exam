@@ -1,0 +1,140 @@
+
+.active {
+    background: #ccb417;
+}
+
+.btn {
+    background-color: #ccb417;
+    border-radius: 20px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-item {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-item.active {
+    background-color: #f5a623;
+    color: white;
+    border-color: #f5a623;
+}
+
+
+
+/* Footer Container */
+.footer {
+    background-color: #fffaf4;
+    padding: 60px 30px;
+    font-family: 'Arial', sans-serif;
+    color: #111;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.footer-column {
+    flex: 1 1 180px;
+    min-width: 150px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px 0 0 6px;
+    flex: 1;
+    font-size: 14px;
+    outline: none;
+}
+
+.newsletter-form button {
+    background-color: #f4b400;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.newsletter-form button:hover {
+    background-color: #e0a900;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
